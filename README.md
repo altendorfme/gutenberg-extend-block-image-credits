@@ -1,6 +1,8 @@
 # Extend block image credits
 
-This is a WordPress plugin which shows how to extend block image credits.
+This is a wordPress plug-in that adds a credit field to the gutenberg image block.
+
+This code was based on https://github.com/liip/extend-block-example-wp-plugin
 
 ## Developer information
 

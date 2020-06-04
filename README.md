@@ -1,0 +1,1 @@
+# gutenberg-extend-block-image-credits

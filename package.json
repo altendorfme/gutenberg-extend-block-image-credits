@@ -1,0 +1,21 @@
+{
+	"name": "gutenberg-extend-block-image-credits",
+	"version": "1.0.0",
+	"description": "This plugin add credits field to guttenberg image element",
+	"scripts": {
+		"start": "parcel watch --no-hmr assets/js/extend-block-image-credits.js -d dist",
+		"build": "parcel build assets/js/extend-block-image-credits.js -d dist"
+	},
+	"author": "Vadim Zhuk",
+	"dependencies": {
+		"deasync": "^0.1.20",
+		"lodash.assign": "^4.2.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"parcel-bundler": "^1.12.3",
+		"sass": "^1.15.2"
+	},
+	"private": true
+}

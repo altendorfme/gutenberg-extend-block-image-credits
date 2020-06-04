@@ -1,0 +1,42 @@
+/**
+ * Customize image credits box plugin.
+ */
+ .gutenberg-extend-block-image-credits {
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	.components-base-control {
+		margin-bottom: 0 !important;
+		flex: 1 1 auto !important;
+		margin-right: 1rem;
+	}
+	.components-text-control__input {
+		padding: 8px 8px !important;
+		flex: 1 1 auto !important;
+	}
+	.components-base-control__field {
+		margin-bottom: 0 !important;
+	}
+	.components-button {
+		width: 34px !important;
+		&:disabled {
+			.dashicons {
+				opacity: 0.3;
+			}
+		}
+	}
+	&_save {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M256 271c-38.968 0-70.671 31.703-70.671 70.671s31.703 70.671 70.671 70.671 70.671-31.703 70.671-70.671S294.968 271 256 271zm16.867 85.671h-33.734v-30h33.734zM224.062 0h155.279v141.342H224.062zM132.659 0h61.402v141.342h-61.402z'/%3E%3Cpath d='M409.341 0v171.342H102.659V0H57.084L0 58.937V512h512V0zM256 442.342c-55.51 0-100.671-45.161-100.671-100.671S200.49 241 256 241s100.671 45.161 100.671 100.671S311.51 442.342 256 442.342z'/%3E%3C/svg%3E");
+		filter: invert(86%) sepia(92%) saturate(10%) hue-rotate(187deg)
+			brightness(103%) contrast(103%);
+		width: 16px;
+		height: 16px;
+		background-size: 100% auto;
+	}
+	.components-spinner {
+		flex: 1 1 auto !important;
+		margin-top: 0 !important;
+		width: 20px;
+	}
+}
